@@ -12,8 +12,8 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* CXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CXAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CXViewController.m */; };
+		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
+		6003F5A7195388D20070C39A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		055E47EFCFD5A916E2F922B3 /* Pods-EagleKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EagleKit_Tests/Pods-EagleKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1456B79C66BC65A0F98CE036 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		47DD6B2F8A8DE59DB6C6D05A /* EagleKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EagleKit.podspec; path = ../EagleKit.podspec; sourceTree = "<group>"; };
+		1456B79C66BC65A0F98CE036 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		47DD6B2F8A8DE59DB6C6D05A /* EagleKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EagleKit.podspec; path = ../EagleKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4BEE0AB9EF86611EBF58677A /* Pods-EagleKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-EagleKit_Example/Pods-EagleKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EagleKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,10 +49,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* EagleKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EagleKit-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* CXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* CXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* EagleKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EagleKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,7 +60,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63990FEB7777417ABF710228 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63990FEB7777417ABF710228 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F23A613474B24EF0DC7252 /* Pods_EagleKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EagleKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7547B8D68F6DC8CE2BAD356D /* Pods_EagleKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EagleKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,11 +132,11 @@
 		6003F593195388D20070C39A /* Example for EagleKit */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* CXAppDelegate.h */,
-				6003F59D195388D20070C39A /* CXAppDelegate.m */,
+				6003F59C195388D20070C39A /* AppDelegate.h */,
+				6003F59D195388D20070C39A /* AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CXViewController.h */,
-				6003F5A6195388D20070C39A /* CXViewController.m */,
+				6003F5A5195388D20070C39A /* ViewController.h */,
+				6003F5A6195388D20070C39A /* ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -179,8 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				47DD6B2F8A8DE59DB6C6D05A /* EagleKit.podspec */,
-				63990FEB7777417ABF710228 /* README.md */,
 				1456B79C66BC65A0F98CE036 /* LICENSE */,
+				63990FEB7777417ABF710228 /* README.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				055E47EFCFD5A916E2F922B3 /* Pods-EagleKit_Tests.debug.xcconfig */,
 				A16CD54294CAF7B18D77C065 /* Pods-EagleKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -244,10 +243,13 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CX;
+				CLASSPREFIX = EK;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = chenxing;
+				ORGANIZATIONNAME = "Teng Fei";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,8 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* CXAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CXViewController.m in Sources */,
+				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +497,19 @@
 			baseConfigurationReference = 4BEE0AB9EF86611EBF58677A /* Pods-EagleKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EagleKit/EagleKit-Prefix.pch";
 				INFOPLIST_FILE = "EagleKit/EagleKit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = EagleKit;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.eaglekit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +520,19 @@
 			baseConfigurationReference = CF0297444617B6780F0EAB74 /* Pods-EagleKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EagleKit/EagleKit-Prefix.pch";
 				INFOPLIST_FILE = "EagleKit/EagleKit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = EagleKit;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.eaglekit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

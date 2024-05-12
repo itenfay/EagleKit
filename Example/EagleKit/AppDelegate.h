@@ -1,5 +1,5 @@
 //
-//  CXAppDelegate.h
+//  AppDelegate.h
 //  EagleKit
 //
 //  Created by Teng Fei on 02/21/2024.
@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface CXAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

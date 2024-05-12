@@ -2,16 +2,16 @@
 //  main.m
 //  EagleKit
 //
-//  Created by chenxing on 02/21/2024.
-//  Copyright (c) 2024 chenxing. All rights reserved.
+//  Created by Teng Fei on 02/21/2024.
+//  Copyright (c) 2024 Teng Fei. All rights reserved.
 //
 
 @import UIKit;
-#import "CXAppDelegate.h"
+#import "AppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CXAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

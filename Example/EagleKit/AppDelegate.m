@@ -1,14 +1,14 @@
 //
-//  CXAppDelegate.m
+//  AppDelegate.m
 //  EagleKit
 //
 //  Created by Teng Fei on 02/21/2024.
 //  Copyright (c) 2024 Teng Fei. All rights reserved.
 //
 
-#import "CXAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation CXAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
